@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li,a,button{
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    align-items: center;
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color:#0088a9
+}
+nav{
+    background-color: #27295a;
+    padding-top: 20px;
+    /* border:solid; */
+    width: 100%;
+    text-align: right;
+    height: 50px;
+}
+body{
+    background: -webkit-linear-gradient(left, #27295a, #b224ef);
+}
+.container{
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    /* text-align: center; */
+    display:flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.bx{
+    background: white;
+    width:310px;
+    /* height:400px; */
+    margin:10px;
+    border-radius: 15px;
+}
+
+.bx-image{
+    /* background-color: brown; */
+    height:170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px  15px 0 0;
+}
+
+.bx-1{
+    background-image: url(images/tcs.jpg);
+}
+
+.bx-2{
+    background-image: url(images/infosys.jpg);
+}
+
+.bx-3{
+    background-image: url(images/deloite.jpg);
+}
+.bx-4{
+    background-image: url(images/kpmg.jpg);
+}
+.bx-5{
+    background-image: url(images/apollo.jpg);
+}
+.bx-6{
+    background-image: url(images/fortis.jpg);
+}
+.bx-7{
+    background-image: url(images/whirlpool.jpg);
+}
+.bx-8{
+    background-image: url(images/first\ american.jpg);
+}
+.bx p{
+    padding: 10px;
+}
+
+.bx a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.bx:hover{
+    background-color:antiquewhite ;
+    color: blue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+header{
+    
+    text-align:center ;
+    text-shadow: #27295a;
+
+}
+
+footer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    bottom: 50px;
+}
+
+h2{
+    text-align: center;
+}
